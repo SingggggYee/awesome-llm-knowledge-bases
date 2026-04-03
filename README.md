@@ -1,12 +1,14 @@
 # Awesome LLM Knowledge Bases [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) [![CC0](https://img.shields.io/badge/license-CC0-blue.svg)](LICENSE)
 
-A curated list of tools, plugins, and workflows for building personal knowledge bases with LLMs — inspired by the emerging paradigm of converting raw documents into structured markdown wikis.
+> Andrej Karpathy's [viral post](https://x.com/karpathy/status/1907477278835749189) on LLM Knowledge Bases hit 1.7M views. This is the definitive resource list for the workflow he described.
 
-> **"raw data from a given number of sources is collected, then compiled by an LLM into a .md wiki, then operated on by various CLIs by the LLM to do Q&A and to incrementally enhance the wiki"**
+> **"raw data from a given number of sources is collected, then compiled by an LLM into a .md wiki, then operated on by various CLIs by the LLM to do Q&A and to incrementally enhance the wiki, and all of it viewable in Obsidian. You rarely ever write or edit the wiki manually, it's the domain of the LLM."**
 >
-> — [Andrej Karpathy](https://x.com/karpathy), Apr 3, 2026 (1.7M views)
+> — [Andrej Karpathy](https://x.com/karpathy/status/1907477278835749189), Apr 3, 2026
 
 The workflow: **Ingest → Compile → Lint → View → Query → Enhance → Repeat.**
+
+**Part of the [LLM KB Ecosystem](https://github.com/SingggggYee):** [karpathy-kb-template](https://github.com/SingggggYee/karpathy-kb-template) | [wiki-compiler](https://github.com/SingggggYee/wiki-compiler) | [kb-lint](https://github.com/SingggggYee/kb-lint)
 
 ---
 
@@ -149,7 +151,7 @@ Tools for distilling knowledge bases into training data and fine-tuned model wei
 
 Blog posts, tutorials, and videos about building LLM knowledge bases.
 
-- [Karpathy's Tweet Thread (Apr 2026)](https://x.com/karpathy) - The viral thread that crystallized the raw data → LLM → wiki → CLI workflow.
+- [Karpathy's Tweet Thread (Apr 2026)](https://x.com/karpathy/status/1907477278835749189) - The viral thread that crystallized the raw data → LLM → wiki → CLI workflow.
 - [Building a Second Brain (Tiago Forte)](https://www.buildingasecondbrain.com) - The original methodology for personal knowledge management that inspired many tools in this list.
 - [Zettelkasten Method](https://zettelkasten.de/introduction/) - The atomic note-taking method. Foundation for tools like Obsidian and Logseq.
 - [Obsidian Hub](https://publish.obsidian.md/hub) - Community-maintained documentation, guides, and resources for Obsidian workflows.
