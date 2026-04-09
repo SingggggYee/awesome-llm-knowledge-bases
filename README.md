@@ -4,7 +4,7 @@
 
 > **"raw data from a given number of sources is collected, then compiled by an LLM into a .md wiki, then operated on by various CLIs by the LLM to do Q&A and to incrementally enhance the wiki, and all of it viewable in Obsidian. You rarely ever write or edit the wiki manually, it's the domain of the LLM."**
 >
-> — [Andrej Karpathy](https://x.com/karpathy/status/1907477278835749189), Apr 3, 2026
+> - [Andrej Karpathy](https://x.com/karpathy/status/1907477278835749189), Apr 3, 2026
 
 The workflow: **Ingest → Compile → Lint → View → Query → Enhance → Repeat.**
 
@@ -167,7 +167,7 @@ Existing knowledge base, second brain, and personal wiki projects.
 - [Awesome Obsidian](https://github.com/kmaasrud/awesome-obsidian) - Curated list of Obsidian resources, plugins, and themes.
 - [Second Brain](https://github.com/KasperZuttworthy/Second-Brain) - Resources and tools for building a digital second brain.
 - [Awesome Zettelkasten](https://github.com/fzslm/awesome-zettelkasten) - Curated list of Zettelkasten tools, guides, and resources.
-- [Project Memex](https://en.wikipedia.org/wiki/Memex) - Vannevar Bush's 1945 vision of a personal knowledge device — the ancestor of this entire space.
+- [Project Memex](https://en.wikipedia.org/wiki/Memex) - Vannevar Bush's 1945 vision of a personal knowledge device - the ancestor of this entire space.
 
 ---
 
@@ -175,7 +175,7 @@ Existing knowledge base, second brain, and personal wiki projects.
 
 ### What is an LLM knowledge base?
 
-An LLM knowledge base is a structured collection of markdown documents that are compiled, maintained, and queried using large language models. Instead of manually writing a wiki, you feed raw data to an LLM which organizes it into interlinked pages — then use CLI tools to ask questions and incrementally improve the content.
+An LLM knowledge base is a structured collection of markdown documents that are compiled, maintained, and queried using large language models. Instead of manually writing a wiki, you feed raw data to an LLM which organizes it into interlinked pages - then use CLI tools to ask questions and incrementally improve the content.
 
 ### How do I build a personal knowledge base with LLMs?
 
@@ -183,15 +183,15 @@ Start by ingesting your sources (web pages, PDFs, notes) into markdown using too
 
 ### What's the best tool for converting PDFs to markdown?
 
-[Marker](https://github.com/VikParuchuri/marker) is widely regarded as one of the best options — it handles complex layouts, tables, and equations with high accuracy. For vision-model-based extraction, [Zerox](https://github.com/getomni-ai/zerox) offers zero-shot OCR. [Docling](https://github.com/DS4SD/docling) from IBM is another strong choice, especially for mixed-format document pipelines.
+[Marker](https://github.com/VikParuchuri/marker) is widely regarded as one of the best options - it handles complex layouts, tables, and equations with high accuracy. For vision-model-based extraction, [Zerox](https://github.com/getomni-ai/zerox) offers zero-shot OCR. [Docling](https://github.com/DS4SD/docling) from IBM is another strong choice, especially for mixed-format document pipelines.
 
 ### Can I use Obsidian with LLM knowledge bases?
 
-Yes — Obsidian is the recommended viewer for this workflow. Its graph view, backlinks, and plugin ecosystem make it ideal for navigating LLM-generated wikis. Plugins like [Obsidian Copilot](https://github.com/logancyang/obsidian-copilot) and [Smart Connections](https://github.com/brianpetro/obsidian-smart-connections) add AI-powered chat and note discovery directly inside the app.
+Yes - Obsidian is the recommended viewer for this workflow. Its graph view, backlinks, and plugin ecosystem make it ideal for navigating LLM-generated wikis. Plugins like [Obsidian Copilot](https://github.com/logancyang/obsidian-copilot) and [Smart Connections](https://github.com/brianpetro/obsidian-smart-connections) add AI-powered chat and note discovery directly inside the app.
 
 ### What is the Karpathy knowledge base workflow?
 
-Andrej Karpathy described a workflow where raw data from multiple sources is collected, compiled by an LLM into a `.md` wiki, then operated on by CLI tools for Q&A and incremental enhancement — all viewable in Obsidian. The key insight is that you rarely write or edit the wiki manually; that's the LLM's job. See the [original thread](https://x.com/karpathy/status/1907477278835749189).
+Andrej Karpathy described a workflow where raw data from multiple sources is collected, compiled by an LLM into a `.md` wiki, then operated on by CLI tools for Q&A and incremental enhancement - all viewable in Obsidian. The key insight is that you rarely write or edit the wiki manually; that's the LLM's job. See the [original thread](https://x.com/karpathy/status/1907477278835749189).
 
 ### How do I query my knowledge base with AI?
 
