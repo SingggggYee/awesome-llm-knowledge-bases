@@ -25,6 +25,7 @@ The workflow: **Ingest → Compile → Lint → View → Query → Enhance → R
 - [Synthetic Data & Fine-tuning](#synthetic-data--fine-tuning)
 - [Workflows & Guides](#workflows--guides)
 - [Similar Projects](#similar-projects)
+- [FAQ](#faq)
 - [Contributing](#contributing)
 
 ---
@@ -167,6 +168,34 @@ Existing knowledge base, second brain, and personal wiki projects.
 - [Second Brain](https://github.com/KasperZuttworthy/Second-Brain) - Resources and tools for building a digital second brain.
 - [Awesome Zettelkasten](https://github.com/fzslm/awesome-zettelkasten) - Curated list of Zettelkasten tools, guides, and resources.
 - [Project Memex](https://en.wikipedia.org/wiki/Memex) - Vannevar Bush's 1945 vision of a personal knowledge device — the ancestor of this entire space.
+
+---
+
+## FAQ
+
+### What is an LLM knowledge base?
+
+An LLM knowledge base is a structured collection of markdown documents that are compiled, maintained, and queried using large language models. Instead of manually writing a wiki, you feed raw data to an LLM which organizes it into interlinked pages — then use CLI tools to ask questions and incrementally improve the content.
+
+### How do I build a personal knowledge base with LLMs?
+
+Start by ingesting your sources (web pages, PDFs, notes) into markdown using tools like [Docling](https://github.com/DS4SD/docling) or [Jina Reader](https://github.com/jina-ai/reader). Then use an LLM agent such as [Claude Code](https://docs.anthropic.com/en/docs/claude-code) or [Aider](https://github.com/Aider-AI/aider) to compile the fragments into a structured wiki. View and navigate the result in [Obsidian](https://obsidian.md).
+
+### What's the best tool for converting PDFs to markdown?
+
+[Marker](https://github.com/VikParuchuri/marker) is widely regarded as one of the best options — it handles complex layouts, tables, and equations with high accuracy. For vision-model-based extraction, [Zerox](https://github.com/getomni-ai/zerox) offers zero-shot OCR. [Docling](https://github.com/DS4SD/docling) from IBM is another strong choice, especially for mixed-format document pipelines.
+
+### Can I use Obsidian with LLM knowledge bases?
+
+Yes — Obsidian is the recommended viewer for this workflow. Its graph view, backlinks, and plugin ecosystem make it ideal for navigating LLM-generated wikis. Plugins like [Obsidian Copilot](https://github.com/logancyang/obsidian-copilot) and [Smart Connections](https://github.com/brianpetro/obsidian-smart-connections) add AI-powered chat and note discovery directly inside the app.
+
+### What is the Karpathy knowledge base workflow?
+
+Andrej Karpathy described a workflow where raw data from multiple sources is collected, compiled by an LLM into a `.md` wiki, then operated on by CLI tools for Q&A and incremental enhancement — all viewable in Obsidian. The key insight is that you rarely write or edit the wiki manually; that's the LLM's job. See the [original thread](https://x.com/karpathy/status/1907477278835749189).
+
+### How do I query my knowledge base with AI?
+
+Use a RAG (Retrieval-Augmented Generation) framework like [LlamaIndex](https://github.com/run-llama/llama_index) or [LangChain](https://github.com/langchain-ai/langchain) to index your markdown files and ask natural language questions. For a simpler approach, tools like [Khoj](https://github.com/khoj-inc/khoj) and [Quivr](https://github.com/QuivrHQ/quivr) provide ready-to-use personal AI assistants that work directly with your documents.
 
 ---
 
