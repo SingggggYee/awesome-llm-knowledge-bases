@@ -88,6 +88,7 @@ Obsidian plugins that enhance the knowledge base workflow.
 Applications for viewing, editing, and navigating markdown knowledge bases.
 
 - [Obsidian](https://obsidian.md) - The gold standard for local-first markdown knowledge bases. Graph view, backlinks, plugins ecosystem.
+- [Kuku](https://github.com/kuku-mom/kuku) - Open-source local-first markdown workspace with AI-assisted edits, backlinks, graph navigation, and reviewable diffs.
 - [Logseq](https://github.com/logseq/logseq) - Open-source outliner-style knowledge base with bidirectional linking and graph visualization.
 - [Notion](https://notion.so) - All-in-one workspace with databases, wikis, and AI features. Cloud-based.
 - [Foam](https://github.com/foambubble/foam) - Personal knowledge management and sharing system built on VS Code and markdown.
