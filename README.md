@@ -58,6 +58,7 @@ LLM-powered tools that organize, compile, and structure knowledge into coherent 
 - [Khoj](https://github.com/khoj-inc/khoj) - Personal AI assistant that indexes your markdown notes and documents for natural language interaction.
 - [Quivr](https://github.com/QuivrHQ/quivr) - Personal productivity assistant that ingests documents and builds a searchable knowledge base.
 - [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI applications. Persists and organizes knowledge across interactions.
+- [braindb](https://github.com/dimknaf/braindb) - Persistent memory database and REST API for LLM agents. Stores typed entities (thoughts, facts, sources, documents, rules) with explicit relations; recall via fuzzy + semantic keyword search, 3-hop graph traversal, temporal decay, and always-on rule injection. A watcher auto-ingests dropped files; a maintainer + writer agent loop maintains a self-healing wiki on top — consolidating duplicates, revising pages when new evidence contradicts prior claims, citing every fact inline with `[[ref:UUID]]`. Postgres + pgvector.
 
 ## Knowledge Base Linting
 
