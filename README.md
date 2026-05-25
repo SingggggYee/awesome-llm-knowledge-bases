@@ -58,6 +58,7 @@ LLM-powered tools that organize, compile, and structure knowledge into coherent 
 - [Khoj](https://github.com/khoj-inc/khoj) - Personal AI assistant that indexes your markdown notes and documents for natural language interaction.
 - [Quivr](https://github.com/QuivrHQ/quivr) - Personal productivity assistant that ingests documents and builds a searchable knowledge base.
 - [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI applications. Persists and organizes knowledge across interactions.
+- [Cognee](https://github.com/topoteretes/cognee) - Memory engine that ingests and organizes data into a knowledge graph (graph + vector) for AI agents. Persists knowledge across sources and sessions.
 
 ## Knowledge Base Linting
 
