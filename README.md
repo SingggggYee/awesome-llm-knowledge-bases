@@ -54,11 +54,11 @@ Tools for converting web pages, PDFs, papers, and other sources into clean markd
 LLM-powered tools that organize, compile, and structure knowledge into coherent wikis.
 
 - **[wiki-compiler](https://github.com/SingggggYee/wiki-compiler)** - LLM-driven compiler that organizes raw markdown fragments into a structured, interlinked wiki.
+- [Cognee](https://github.com/topoteretes/cognee) - Memory engine that ingests and organizes data into a knowledge graph (combining graph and vector storage) to persist knowledge across sources and sessions for AI agents.
 - [Fabric](https://github.com/danielmiessler/fabric) - AI-powered framework for augmenting humans. Includes patterns for extracting and organizing knowledge.
 - [Khoj](https://github.com/khoj-inc/khoj) - Personal AI assistant that indexes your markdown notes and documents for natural language interaction.
 - [Quivr](https://github.com/QuivrHQ/quivr) - Personal productivity assistant that ingests documents and builds a searchable knowledge base.
 - [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI applications. Persists and organizes knowledge across interactions.
-- [Cognee](https://github.com/topoteretes/cognee) - Memory engine that ingests and organizes data into a knowledge graph (graph + vector) for AI agents. Persists knowledge across sources and sessions.
 
 ## Knowledge Base Linting
 
