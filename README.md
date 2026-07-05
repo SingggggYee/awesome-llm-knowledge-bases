@@ -168,6 +168,8 @@ Existing knowledge base, second brain, and personal wiki projects.
 - [Second Brain](https://github.com/KasperZuttworthy/Second-Brain) - Resources and tools for building a digital second brain.
 - [Awesome Zettelkasten](https://github.com/fzslm/awesome-zettelkasten) - Curated list of Zettelkasten tools, guides, and resources.
 - [Project Memex](https://en.wikipedia.org/wiki/Memex) - Vannevar Bush's 1945 vision of a personal knowledge device - the ancestor of this entire space.
+- [Awesome OKF](https://github.com/McClawdDigital/awesome-okf) - Curated list of Open Knowledge Format (OKF) bundles, tools, and resources — Google's open standard for representing knowledge as interlinked Markdown that AI agents can consume natively.
+- [BundleDex](https://bundledex.net) - Directory of 240+ OKF bundles with search, categorization, and a JSON API for agent discovery.
 
 ---
 
